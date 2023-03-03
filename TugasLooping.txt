@@ -1,0 +1,10 @@
+print ('PROGRAM BILANGAN GANJIL GENAP')
+print ('')
+
+# membuat variabel bil untuk angka yang di looping
+bil = 1
+
+# membuat pengulangan dengan while 
+while bil <= 100:  # berhenti looping jika bil kurang dari sama dengan 100
+  print (bil)
+  bil = bil+1  # menambah angka dalam variabel bil
