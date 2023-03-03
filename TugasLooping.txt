@@ -1,10 +1,16 @@
+# jawaban anda di sini
 print ('PROGRAM BILANGAN GANJIL GENAP')
 print ('')
+print ('MENAMPILKAN BILANGAN GANJIL SAJA')
+print('')
 
 # membuat variabel bil untuk angka yang di looping
 bil = 1
 
 # membuat pengulangan dengan while 
 while bil <= 100:  # berhenti looping jika bil kurang dari sama dengan 100
-  print (bil)
+  if bil % 2 == 1:  # jika bil dibagi 2 sisanya 1 maka bilangan itu ganjil
+    print(bil)
+  else :
+    print('-')
   bil = bil+1  # menambah angka dalam variabel bil
